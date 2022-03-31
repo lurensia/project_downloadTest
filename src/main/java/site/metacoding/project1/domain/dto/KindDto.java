@@ -22,6 +22,7 @@ public class KindDto {
             private Integer reqNo;
             private Integer resultCode;
             private String resultMsg;
+            private String errorMsg;
         }
 
         @AllArgsConstructor
@@ -38,7 +39,7 @@ public class KindDto {
                 @Data
                 class Item {
                     private Long kindCd;
-                    private String kNm;
+                    private String KNm;
                 }
             }
         }

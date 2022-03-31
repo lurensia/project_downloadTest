@@ -7,7 +7,7 @@ import lombok.Data;
 
 @AllArgsConstructor
 @Data
-public class AnimalDto {
+public class ALL {
 
     private Response response;
 
